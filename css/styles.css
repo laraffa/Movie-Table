@@ -14,6 +14,7 @@
 table {
   border-spacing: 0;
   border-collapse: collapse;
+  font-family: sans-serif;
 }
 
 td, th {
@@ -27,8 +28,16 @@ tbody tr:nth-child(odd) {
 
 .headingColor {
   background-color: #18A5BA;
+  color: white;
 }
 
   tbody, thead {
     border: 1px solid #18A5BA;
   }
+tbody td:first-child {
+  font-weight: bold;
+}
+
+tbody {
+  color: #535859;
+}
