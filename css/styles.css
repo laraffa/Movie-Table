@@ -5,3 +5,30 @@
        -moz-box-sizing: border-box;
             box-sizing: border-box;
 }
+
+/*table, td, th {
+ border: 1px solid #999;
+ padding: 0.5rem;
+}*/
+
+table {
+  border-spacing: 0;
+  border-collapse: collapse;
+}
+
+td, th {
+  padding: 0.5rem;
+}
+
+tbody tr:nth-child(odd) {
+  background: #eee;
+  border: 1px solid #18A5BA;
+}
+
+.headingColor {
+  background-color: #18A5BA;
+}
+
+  tbody, thead {
+    border: 1px solid #18A5BA;
+  }
